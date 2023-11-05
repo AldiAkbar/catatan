@@ -1,0 +1,29 @@
+1. cek git kita di terminal
+    - git config user.name
+    - git config user.email
+    set git di terminal -> git config --global user.name "nama github kita"
+                           git config --global user.email "email github kita"
+2. git clone copylink -> untuk mengclone git
+3. git log --graph -> untuk mengecek commit2 yang sudah terjadi pada repository
+4. memasukan git yang sudah di clone dari orang lain ke reposiroty kita
+    buat repository baru di git kita
+    git remote -v
+    git remote add mynewrepo 'link repo baru kita'
+    git remote remove origin -> hapus remote yang originalnya
+    git status -> untuk mengecek perubahan yang dilakukan
+    git add *
+    git status -> cek lagi
+    git commit -m 'pesan'
+    git push -u mynewrepo main
+5. untuk berpindah branch
+    git fetch
+    git branch
+    git checkout 'nama branch'
+    setelan berganti branch jika ingin merubah data maka :
+        git status -> untuk mengecek perubahan yang dilakukan
+        git add *
+        git status -> cek lagi
+        git commit -m 'pesan'
+        git log --graph
+        git push
+    
